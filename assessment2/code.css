@@ -11,12 +11,12 @@ background-size: cover;
 
 
 .test1{
-    font-style: italic;
+    font-style: italic;  
     margin: 20px 0px 0px 20px;
     border: 5px solid red;
     border-radius: 20px;
-    width: 250px;
-    height: 100px;;
+    width: 450px;
+    height: 150px;;
     color: white;
     background-color:black;
     position:absolute;
@@ -29,10 +29,12 @@ background-size: cover;
 
 .test2{
     font-style: italic;
+    
+text-align: center;  
     margin: 20px 0px 0px 20px;
     border: 5px solid red;
     border-radius: 20px;
-    width: 250px;
+    width: 450px;
     height: 60px;;
     color: white;
     background-color:black;
@@ -44,11 +46,13 @@ background-size: cover;
 
 .test3{
     font-style: italic;
+    
+text-align: center;  
     margin: 20px 0px 0px 20px;
     border: 5px solid red;
     border-radius: 20px;
-    width: 250px;
-    height: 100px;;
+    width: 380px;
+    height: 120px;;
     color: white;
     background-color:black;
     position:absolute;
@@ -59,23 +63,42 @@ background-size: cover;
 
 .test4{
     font-style: italic;
-    font-size: smaller;
-   text-align: center left;
+    font-size: small;
+   text-align: center;
     margin: 20px;
-    border: 5px solid grey;
+    border: 10px solid grey;
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
+    width: 350px;
+    height: 350px;
     color: black;
     background-color:aqua;
     position:absolute;
     padding-top: 25px;
     padding-left: 35px;
     padding-bottom: 35px;
-    left: 15px;
-    top: 190px;
+    left: 25px;
+    top: 380px;
 }
 
+
+
+
+.form{
+    background-color: white;
+
+text-align: center;  
+color: tomato;
+font-size: small;
+border: 10px;
+width: 250px;
+border-style: dashed;
+border-color:  red;
+display: inline-block;
+padding: 20px;
+position: absolute;
+right: 200px;
+top: 200px;
+}
 
 
 .test5{
@@ -84,45 +107,38 @@ background-size: cover;
     margin: 20px 0px 0px 20px;
     border: 5px solid red;
     border-radius: 20px;
-    width: 250px;
-    height: 100px;;
+    width: 450px;
+    height: 50px;;
     color: white;
     background-color:black;
-    position:relative;
-    left: 200px;
+    position:absolute;
+    left: 500px;
+     top: 800px;
 
 }
 
-
-.form{
-text-align: center;  
-color: tomato;
-font-size: x-small;
-border: 5px;
-width: 200px;
-border-style: dashed;
-border-color:  red;
-display: inline-block;
-padding: 20px;
-position: absolute;
-right: 100px;
-top: 200px;
-}
 
 
 .flexbox{
 
     display:flex;
- 
+    flex-direction: row;
+    position: relative;
+    top: 900px;
+    justify-content: space-evenly;
 
 }
 
 .flex{
     background-color: aquamarine;
     color: blue;
-    font-size:x-small;
-    width: 120px;
-    height: auto;
-    border: 5px solid red;
+    font-size:small;
+    width: 200px;
+    height: 220px;
+    border: 3px solid red;
     margin: 20px;
+    border-radius: 20px;
+  
 }
+
+
