@@ -1,0 +1,169 @@
+.grey{
+    background-color: grey  ;
+    background-repeat:repeat-y;
+    background-size: cover;
+    
+   
+   width:100%;
+   height: 200vh;
+}
+
+.box1{
+
+color: blueviolet;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: white;
+    width: 400px;
+    height: 8rem;
+    border: 10px solid red;
+    box-shadow: 7px 7px purple;
+    position: absolute;
+    left: 600px;
+}
+
+.float-container{
+  
+position: absolute;
+top: 300px;
+height:100vh;
+border: 10px solid green;
+width: 100%;
+
+}
+
+.floatbox1{
+    color: purple;
+    text-align: center;
+
+    font-size: larger;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    box-shadow: 7px 7px purple;
+    float: left;
+
+}
+
+.floatbox2{
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    box-shadow: 7px 7px purple;
+    float: right;
+
+}
+
+
+.floatbox3{
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    box-shadow: 7px 7px purple;
+    clear: left;
+
+}
+
+
+
+.floatbox4{
+    color: purple;
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border: 10px solid red;
+    box-shadow: 7px 7px purple;
+float: right;
+
+}
+
+
+
+.greenbox{    
+ text-align: center;
+    height:600px;
+    width: 600px;
+    border: 10px solid purple;
+    background-color: green;
+    position: relative;
+    left: 550px;
+    bottom:400px;
+
+}
+
+    .yellowbox1{
+       
+
+        height: 250px;
+    
+        width: 280px;
+        background-color: yellow;
+        border: 10px;
+        float: left;
+    }
+        
+    .yellowbox2{
+       
+
+        height: 250px;
+    
+        width: 280px;
+        background-color: yellow;
+        border: 10px;
+     float: right;
+    }
+
+
+    .yellowbox3{
+     
+        position: relative;
+        text-align: center;
+        top: 260px;
+        left:10px;
+        height: 230px;
+        width: 580px;
+        background-color: yellow;
+        border: 20px;
+        
+
+    }
+        
+    .class{
+        color: red;
+        font-style: italic;
+        background-color: greenyellow;
+        width: 400px;
+        height: 4rem;
+        border: 10px solid red;
+        box-shadow: 7px 7px purple;
+        margin-left: 600px;
+        margin-top: 200px;
+        position: fixed;
+        z-index: 5;
+        }
+    
+     p{
+        position:absolute;
+        left: 75px;
+        top: 75px;}
+
+
+        .other{
+            position: absolute;
+            top: 5px;
+            left: 160px;
+       
+        }
+    
