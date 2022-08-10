@@ -1,0 +1,68 @@
+body{
+    background-color: yellow;
+}
+
+h2{
+    text-align: center;
+}
+
+.container1{
+    align-content: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2rem;
+    gap: 30px;
+    
+}
+
+
+.container1 > div{
+    height: 100px;
+    width: 100px;
+    background: green;
+  
+
+}
+
+.box1:hover{
+    transition: linear 1s;
+    width: 200px;
+}
+
+.box2:hover{
+    transition: linear 1s;
+    width: 300px;
+    height: 300px;
+}
+
+.box3:hover{
+    transition: linear  1s;
+    width: 400px;
+}
+
+.box4:hover{
+    transition: linear  1s;
+    width: 410px;
+}
+
+.box5:hover{
+    transition: linear  1s;
+    width: 410px;
+}
+
+.box6:hover{
+    transition: linear  1s;
+    width: 412px;
+}
+
+.box7:hover{
+    transition: linear  1s;
+    width: 415px;
+}
+
+
+a{
+    font-size: x-large;
+  position: absolute;
+  left: 735px;
+}

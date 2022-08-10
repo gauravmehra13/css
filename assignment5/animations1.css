@@ -1,0 +1,163 @@
+body{
+    background-color: yellow;
+}
+
+h2{
+    text-align: center;
+ }
+
+.container1{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem;
+    gap: 30px;
+    
+}
+
+
+.container1 > div{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    animation: gaurav 2s infinite alternate;
+
+}
+
+@keyframes gaurav  {
+   0%{transform:skewX(30deg);
+   } 
+
+   100% {
+    transform:skewX(-30deg) 
+   }
+}
+
+.container2{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem;
+    gap: 30px;
+    
+}
+
+
+.container2 > div{
+    height: 100px;
+    width: 100px;
+    background: rebeccapurple;
+    animation: gaurav2 2s infinite alternate;
+
+}
+
+@keyframes gaurav2  {
+   0%{transform:skewX(0deg)
+   } 
+
+   100% {
+    transform:skewY(-30deg)
+   }
+}
+
+.container3{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem;
+    gap: 30px;
+    
+}
+
+.container3 > div{
+    height: 100px;
+    width: 100px;
+    background: dodgerblue;
+    animation: gaurav3 3s infinite ease-in-out;
+
+}
+
+@keyframes gaurav3  {
+   0%{
+    transform:rotate(0deg)
+   } 
+
+    50%{
+        transform:rotate(0deg)
+       } 
+
+   100% {
+    transform:rotate(360deg)
+   }
+}
+
+.container4{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2rem;
+    gap: 30px;
+    
+}
+
+.container4>#redbox{
+height: 100px;
+width: 100px;
+animation: gaurav4 2s infinite alternate;
+}
+
+.container4>#greenbox{
+    height: 100px;
+    width: 100px;
+    animation: gaurav5 1s infinite  ease-in-out;
+    }
+    
+    .container4>#bluebox{
+        height: 100px;
+        width: 100px;
+        animation: gaurav6 2s infinite 
+        }
+        
+    
+
+@keyframes gaurav4  {
+   0%{
+    transform:scaleY(.8)
+   } 
+
+   100% {
+    transform:scaleY(1)
+   }
+}
+
+@keyframes gaurav5  {
+    0%{
+     transform:scaleX(1.5)
+    } 
+ 
+    100% {
+     transform:scaleX(1)
+    }
+ }
+
+ @keyframes gaurav6  {
+    0%{
+     transform:rotate(deg)
+    } 
+ 
+    100% {
+     transform:rotate(90deg)
+    }
+ }
+ 
+ 
+a{
+    position: absolute;
+    left: 580px;
+    color: purple;
+    font-size: xx-large;
+}
+
+
+
+
