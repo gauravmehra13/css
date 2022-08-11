@@ -1,0 +1,111 @@
+body{
+    background-image: url("./sharadesert.jpg");
+    background-size: cover;
+}
+
+.header{
+    position: absolute;
+    right: 20px;
+}
+
+#menu{
+    position: relative;
+    top: 15px;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+
+a{
+    color: white;
+ 
+}
+
+.para{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    
+}
+
+
+#button{
+    border-radius: 20px;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+
+}
+
+.imagebox1{
+    color: white;
+    position: absolute;
+    top: 150px;
+    right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.pic1{
+    float: left;
+    text-align: center;
+    background-image: url(./pic-1.png);
+    width: 220px;
+    height: 250px;
+  
+}
+
+
+.pic2{
+    float: right;
+    text-align: center;
+    background-image: url(./pic-2.png);
+    width: 220px;
+    height: 250px;
+  
+}
+
+.imagebox2{
+    color: white;
+    position: absolute;
+    top: 470px;
+    right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.pic3{
+    
+  
+    text-align: center;
+    background-image: url(./pic-3.png);
+    width: 220px;
+    height: 250px;
+  
+}
+
+
+.pic4{
+    
+    text-align: center;
+    background-image: url(./pic-4.png);
+    width: 220px;
+    height: 250px;
+   
+}
+    
+.pic1:hover{transform: translateY(-30px);}
+.pic2:hover{transform: translateY(-30px);}
+.pic3:hover{transform: translateY(-30px);}
+.pic4:hover{transform: translateY(-30px);}
+    

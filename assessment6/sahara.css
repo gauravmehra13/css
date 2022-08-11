@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./sharadesert.jpg");
+    background-size: cover;
+}
+
+.header{
+    justify-content: space-between;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+
+}
+
+
+#menu{
+    position: relative;
+    top: 15px;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+
+a{
+    color: white;
+ 
+}
+
+.para{
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    
+}
+
+
+#button{
+    border-radius: 20px;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+
+}
+
+.imagebox{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+  display: flex;
+  flex-flow: column wrap;
+  column-gap: 90px;
+  gap: 40px ;
+}
+
+.pic {
+    position: relative;
+    left: 250px;
+    margin: auto;
+    width: 550px;
+    height: 250px;
+    color: white;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    
+}
+    
+.pic:hover{transform: translateY(-30px);}
+
+
+#one {
+    background-image: url("pic-1.png");
+}
+#two {
+    background-image: url("pic-2.png");
+}
+#three {
+    background-image: url("pic-3.png");
+}
+#four {
+    background-image: url("pic-4.png");
+}
+
+
+@media screen and (max-width: 856px) {
+    .body {
+        background-size: auto;
+        background-repeat: repeat;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .header{
+
+        margin-top: 50px;
+        position: absolute;
+        right: 10px;
+    }
+ 
+    .para {
+        position: absolute;
+        right: 20px;
+        width: 80%;
+        padding: 20px;
+    }
+    .imagebox {
+        width: 30%;
+        position: relative;
+        top: 550px;
+        left: 20px;
+        display: flex;
+        align-content: center;
+        flex-flow: column wrap;
+        gap: 90px;
+    }
+
+    .pic {
+        position: relative;
+        left: 250px;
+        margin: auto;
+        width: 550px;
+        height: 250px;
+        color: white;
+        border-radius: 30px;
+        line-height: 30px;
+        padding: 10px 20px;
+        background-repeat: no-repeat;
+        
+    }
+
+}
+
+@media screen and (orientation:portrait) {
+
+    .header {
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
